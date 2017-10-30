@@ -1,6 +1,6 @@
-## transcriptomeProcessing
-### This repository contains scripts or slurm batch files that were used to process transcriptome data
-
+# transcriptomeProcessing
+## This repository contains scripts or slurm batch files that were used to process transcriptome data
+### Clean, assemble, annotate
 #### First, clean the reads
 `runTrimGalore.sh`
 
@@ -16,3 +16,5 @@
 #### Run trinotate and a few stats (run within every species own trinity folder)
 `runTrinotate.sh`
 `runSomeStats.sh`
+
+### Differential expression
