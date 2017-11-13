@@ -4,7 +4,7 @@
 #SBATCH --partition=savio
 #SBATCH --account=co_rosalind
 #SBATCH --qos=rosalind_savio_normal
-#SBATCH --mail-user=chodon@berkeley.edu
+#SBATCH --mail-user=username@berkeley.edu
 #SBATCH --mem-per-cpu=5G
 #SBATCH --cpus-per-task=10
 #SBATCH --mail-type=ALL
