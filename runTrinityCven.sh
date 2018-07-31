@@ -14,7 +14,7 @@ module load trinity
 
 cd /global/scratch/chodon/calochortus/cven/
 
-Trinity --seqType fq --max_memory 400G --left /global/scratch/chodon/calochortus/cven/cven_1.fq --right /global/scratch/chodon/calochortus/cven/cven_2.fq --CPU 20 --output /global/scratch/chodon/calochortus/cven/trinity
+Trinity --SS_lib_type RF --seqType fq --max_memory 400G --left /global/scratch/chodon/calochortus/cven/cven_1.fq --right /global/scratch/chodon/calochortus/cven/cven_2.fq --CPU 20 --output /global/scratch/chodon/calochortus/cven/trinity
 
 
 
