@@ -14,7 +14,7 @@ module load trinity
 
 cd /clusterfs/rosalind/users/chodon/calochortus/cmon/
 
-Trinity --seqType fq --max_memory 57G --left /clusterfs/rosalind/users/chodon/calochortus/cmon/cmon_1.fq --right /clusterfs/rosalind/users/chodon/calochortus/cmon/cmon_2.fq --CPU 6 --output /clusterfs/rosalind/users/chodon/calochortus/cmon/trinity/
+Trinity --SS_lib_type RF --seqType fq --max_memory 57G --left /clusterfs/rosalind/users/chodon/calochortus/cmon/cmon_1.fq --right /clusterfs/rosalind/users/chodon/calochortus/cmon/cmon_2.fq --CPU 6 --output /clusterfs/rosalind/users/chodon/calochortus/cmon/trinity/
 
 
 
