@@ -1,5 +1,6 @@
 # transcriptomeProcessing
 ## This repository contains scripts or slurm batch files that were used to process transcriptome data
+## follows Trinity tutorials 
 ### Clean, assemble, annotate
 ##### First, clean the reads
 `runTrimGalore.sh`
