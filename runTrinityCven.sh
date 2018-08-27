@@ -11,6 +11,10 @@
 #SBATCH --time=72:00:00 
 
 module load trinity
+PERL5LIB=""
+export PATH="/clusterfs/rosalind/groups/spechtlab/software/anaconda2/bin:$PATH"
+export "PERL5LIB=/clusterfs/rosalind/groups/spechtlab/software/anaconda2/lib/perl5/5.22.0/lib/perl5:$PERL5LIB"
+
 
 cd /global/scratch/chodon/calochortus/cven/
 
